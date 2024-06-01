@@ -1,0 +1,95 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+}
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    justify-content: center;
+}
+
+.title-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botones {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 400px;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 15px;
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.btn-comprar {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(153, 25, 117);
+    border-radius: 2%;
+    height: 2rem;
+    width: max-content;
+}
+
+.btn-categorias{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logobranch {
+    height: 8rem;
+}
+
+footer {
+    background-color: rgb(225, 183, 213);
+}
+
